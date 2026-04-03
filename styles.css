@@ -25,15 +25,23 @@ section {
 }
 
 button, .btn {
-  padding: 10px 20px;
-  background: black;
-  color: white;
-  border: none;
-  cursor: pointer;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .contact, .footer {
   background: #222;
   color: white;
   text-align: center;
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
